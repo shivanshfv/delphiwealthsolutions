@@ -295,7 +295,7 @@ em.grad{
 @keyframes breathe{0%,100%{opacity:.85;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.06)}}
 .hero__epsilon{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-54%);
-  font-family:var(--serif);font-weight:400;font-size:min(58vh,52vw);line-height:1;
+  font-family:var(--serif);font-weight:400;font-size:min(32vh,26vw);line-height:1;white-space:nowrap;
   color:transparent;-webkit-text-stroke:1px rgba(168,137,79,.16);
   user-select:none;
 }
@@ -342,7 +342,7 @@ em.grad{
 .hero--sub .label::after{display:none}
 .hero--sub .hero__title{font-size:clamp(42px,6.4vw,84px);margin:30px 0 26px}
 .hero--sub .hero__quote{margin:0;max-width:58ch}
-.hero--sub .hero__epsilon{left:auto;right:-6%;top:56%;font-size:min(70vh,44vw)}
+.hero--sub .hero__epsilon{left:auto;right:-6%;top:56%;font-size:min(38vh,24vw)}
 
 /* ---------- reveal system ---------- */
 [data-reveal]{opacity:0;transform:translateY(46px);filter:blur(7px);
@@ -383,7 +383,7 @@ em.grad{
 .philosophy__quote em{font-style:italic;color:var(--champagne)}
 .philosophy__epsilon{
   position:absolute;top:50%;right:-4%;transform:translateY(-50%);
-  font-family:var(--serif);font-size:44vw;line-height:1;color:transparent;
+  font-family:var(--serif);font-size:24vw;line-height:1;color:transparent;white-space:nowrap;
   -webkit-text-stroke:1px rgba(168,137,79,.12);pointer-events:none;user-select:none;
 }
 
@@ -483,7 +483,7 @@ em.grad{
   transform:scale(1.15);will-change:transform;
 }
 .portrait__inner span{
-  font-family:var(--serif);font-size:120px;color:rgba(231,214,168,.28);line-height:1;
+  font-family:var(--serif);font-size:76px;color:rgba(231,214,168,.28);line-height:1;letter-spacing:.04em;
 }
 .portrait__caption{
   position:absolute;left:0;bottom:0;right:0;padding:18px 22px;
