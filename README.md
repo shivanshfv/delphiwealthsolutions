@@ -22,22 +22,12 @@ all design tokens live at the top of `styles.css` (`:root` custom properties).
 `favicon.svg` (the old E mark) and `Logo A.png` (your original) are no longer referenced by
 the site; you can delete them or keep them as source files.
 
-## Placeholders that need your input
+## Placeholders
 
-Search the project for `[` to find them all. The list:
-
-- `#[LICENSE]`: CA insurance license number (footer of every page, About credentials list)
-- `[EMAIL]`, `[PHONE]`, `[CITY, CALIFORNIA]`: footer contact block, every page
-- `[FOUNDER NAME]` and all bracketed bio paragraphs: `about.html`
-- `[DESIGNATION...]`, `[YEAR EARNED]`, `[PRIOR FIRM OR ROLE]`, `[EDUCATION]`: About credentials
-- `[ADJUST THIS PARAGRAPH TO YOUR OWN TELLING.]`: "Why Delphi" band on About
-- `[ADVISOR NAME]`: footer disclosure block, every page
-- `[CALENDLY LINK]`: `contact.html`. A commented-out Calendly embed snippet sits directly
-  above the placeholder panel; paste your URL and delete the panel.
-- Footer legal disclaimer, marked `[PLACEHOLDER: FINALIZE WITH COUNSEL]`. Drafted
-  conservatively, but it is not legal advice; have counsel finalize it.
-- About page photo: the framed panel in `about.html` (`.portrait`) is a styled placeholder.
-  Replace the `.portrait__inner` div with an `<img>` (keep the class for the parallax effect).
+All bracketed placeholders were removed from the live pages on 2026-08-06 so nothing
+unfinished is consumer-facing. **See `PLACEHOLDER-LOG.md`** for the full list of what was
+removed (license number, email/phone, Calendly embed, bio, credentials) and exactly how
+to add each item back.
 
 ## Contact form
 
